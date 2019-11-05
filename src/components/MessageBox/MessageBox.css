@@ -1,0 +1,122 @@
+.card1{
+    /* position: absolute; */
+    width: 326px;
+    height: 172px;
+    /* left: 838px;
+    top: 238px; */
+    
+    background: #FFFFFF;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+
+    /* padding-top: 0px; */
+}
+
+.card2{
+    width: 301px;
+    height: 123px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.card-up{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+}
+
+.card-up-img{
+    /* width: 61px; */
+    width: 30%;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-up-text{
+    width: 70%;
+}
+
+.card-up-text div:nth-child(1){
+    /* width: 96px;
+    height: 29px; */
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 180%;
+    /* identical to box height, or 29px */
+    
+    
+    color: #007194;
+}
+
+.card-up-text div:nth-child(2){
+    width: 117px;
+    height: 34px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+    
+    
+    color: #007194;
+}
+
+.card-down{
+    /* margin-left: 61px; */
+    float: right;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 5px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+
+.prices{
+    width: 80px;
+    height: 24px;
+    
+    border: 1px solid #047496;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 120%;
+    /* identical to box height, or 12px */
+    
+    
+    color: #017194;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prices:first-of-type{
+    background: #007194;
+    border: 1px solid #047496;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 10px rgba(29, 135, 163, 0.25);
+    border-radius: 5px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 120%;
+    /* identical to box height, or 12px */
+    
+    
+    color: #FFFFFF;
+}
